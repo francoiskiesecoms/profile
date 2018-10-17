@@ -4,6 +4,7 @@ body {
   color: #7d7d7d ;
   font-size: 15px ;
   line-height: 1.6;
+  /*letter-spacing: 3px;*/
 }
 
 h1, h2, h3 {
@@ -123,7 +124,6 @@ table {
 .lighter {
   color: rgba(120, 129, 136,0.8);
 }
-
 
 
 
