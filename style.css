@@ -39,7 +39,7 @@ a:hover {
 }
 
 .container {
-  width: 675px;   /* This sets the width */
+  width: 90%;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
@@ -93,10 +93,35 @@ table {
   text-align: justify;
 }
 
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+  /*list-style: none;*/
+  padding-top: 80px;
+  text-align: left;
+}
+
+#page-content {
+  margin-left: 120px;
+}
+
+#sidebar > ul > li {
+  padding-bottom: 40px;
+  font-size: 22px;
+}
+
+#sidebar ul {
+  list-style: none;
+}
 
 
-
-
+.lighter {
+  color: rgba(120, 129, 136,0.8);
+}
 
 
 

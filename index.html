@@ -8,78 +8,99 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
 </head>
 <body>
-<div class="container">
-  <div class="card text-center">
-    <img src="images/profil_pic.jpg" id="profil"></img>
-    <h1>Francois Kiesecoms</h1>
-    <h2>Student @Le Wagon</h2>
-    <p>I am learning tech and <strong>love it</strong></p>
-   </div>
-  <div class="card text-center list-inline">
-    <ul>
-      <li class="new_list">
-        <a href="https://www.facebook.com/francois.kiesecoms">
-        <i class="fab fa-facebook-f"></i>
-        Facebook
-       </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/francois-kiesecoms-2593b2b7/">
-        <i class="fab fa-linkedin-in"></i>
-        Linkedin
-       </a>
-      </li>
-      <li>
-        <a href="https://github.com/francoiskiesecoms">
-        <i class="fab fa-github"></i>
-        Github
-       </a>
-      </li>
-     </ul>
-  </div>
-  <div class="card text-center">
-    <h2>My favorite movies</h2>
-    <table>
-      <!-- <thead>
-        <tr>
-          <th>First Name</th>
-          <th>Last Name</th>
-        </tr>
-      </thead> -->
-      <tbody>
-        <tr>
-          <td><img src="images/fast_and_furious.jpg"></img></td>
-          <td>
-            <div class="padding-text">
-              <h3>Fast and Furious</h3>
-              <p>Fast and Furious1 ou Rapides et Dangereux au Québec (The Fast and the Furious) est un film américano-allemand réalisé par Rob Cohen sorti en 2001. Il s'agit du premier film de la saga Fast and Furious.</p>
-          </td>
-            </div>
-        </tr>
-        <tr>
-          <td><img src="images/ironman.jpg"></img></td>
-          <td>
-            <div class="padding-text">
-              <h3>Iron Man</h3>
-              <p>Iron Man est un film américain réalisé par Jon Favreau, sorti en 2008. Il est tiré du comics homonyme publié par Marvel. Il s'agit de la première étape de l'univers cinématographique Marvel, dont la première partie, appelée « Phase I » s'est terminée en 2012 avec Avengers de Joss Whedon.</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><img src="images/The_Intouchables.jpg"></img></td>
-          <td>
-            <div class="padding-text">
-              <h3>Intouchables</h3>
-              <p>Intouchables est un film français réalisé par Olivier Nakache et Éric Toledano, sorti en 2011.</p>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="card text-center">
-    <h2>About this page</h2>
-    <p>This page has been coded during the <a href="www.lewagon.com">FullStack program @LeWagon</a>. That is probably the best experience of my entire life.</p>
+<div id="sidebar">
+  <ul>
+    <li>
+      <a href="#summary">
+        <i class="fas fa-info-circle lighter"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#favorite-movies">
+        <i class="fas fa-film lighter"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#help">
+        <i class="fas fa-question-circle lighter"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+<div id="page-content">
+  <div class="container">
+    <div class="card text-center">
+      <img src="images/profil_pic.jpg" id="profil"></img>
+      <h1>Francois Kiesecoms</h1>
+      <h2>Student @Le Wagon</h2>
+      <p>I am learning tech and <strong>love it</strong></p>
+     </div>
+    <div class="card text-center list-inline">
+      <ul>
+        <li class="new_list">
+          <a href="https://www.facebook.com/francois.kiesecoms">
+          <i class="fab fa-facebook-f"></i>
+          Facebook
+         </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/francois-kiesecoms-2593b2b7/">
+          <i class="fab fa-linkedin-in"></i>
+          Linkedin
+         </a>
+        </li>
+        <li>
+          <a href="https://github.com/francoiskiesecoms">
+          <i class="fab fa-github"></i>
+          Github
+         </a>
+        </li>
+       </ul>
+    </div>
+    <div class="card text-center">
+      <h2>My favorite movies</h2>
+      <table>
+        <!-- <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+          </tr>
+        </thead> -->
+        <tbody>
+          <tr>
+            <td><img src="images/fast_and_furious.jpg"></img></td>
+            <td>
+              <div class="padding-text">
+                <h3>Fast and Furious</h3>
+                <p>Fast and Furious1 ou Rapides et Dangereux au Québec (The Fast and the Furious) est un film américano-allemand réalisé par Rob Cohen sorti en 2001. Il s'agit du premier film de la saga Fast and Furious.</p>
+            </td>
+              </div>
+          </tr>
+          <tr>
+            <td><img src="images/ironman.jpg"></img></td>
+            <td>
+              <div class="padding-text">
+                <h3>Iron Man</h3>
+                <p>Iron Man est un film américain réalisé par Jon Favreau, sorti en 2008. Il est tiré du comics homonyme publié par Marvel. Il s'agit de la première étape de l'univers cinématographique Marvel, dont la première partie, appelée « Phase I » s'est terminée en 2012 avec Avengers de Joss Whedon.</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="images/The_Intouchables.jpg"></img></td>
+            <td>
+              <div class="padding-text">
+                <h3>Intouchables</h3>
+                <p>Intouchables est un film français réalisé par Olivier Nakache et Éric Toledano, sorti en 2011.</p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card text-center">
+      <h2>About this page</h2>
+      <p>This page has been coded during the <a href="www.lewagon.com">FullStack program @LeWagon</a>. That is probably the best experience of my entire life.</p>
+    </div>
   </div>
 </div>
 </body>
