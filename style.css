@@ -1,0 +1,108 @@
+body {
+  background-color: #EBEBEB;
+  font-family: 'Open-Sans' ;
+  color: #7d7d7d ;
+  font-size: 15px ;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #7F7F7F;
+  font-size: ;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 22px;
+  color: #DD5555;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DD5555 ;
+}
+
+.container {
+  width: 675px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px ;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#profil {
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  /*border: 2px solid rgba(221, 85, 85, 0.2);*/
+  border: 3px solid rgba(127, 127, 127,0.2)
+}
+
+.text-center {
+  text-align: center;
+}
+
+table {
+  text-align: start;
+  display: table;
+}
+
+.list-inline > ul > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.padding-text {
+  vertical-align: top;
+  padding: 15px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
