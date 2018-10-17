@@ -102,7 +102,7 @@ table {
   background-color: #384047;
   /*list-style: none;*/
   padding-top: 80px;
-  text-align: left;
+  text-align: center;
 }
 
 #page-content {
@@ -116,6 +116,7 @@ table {
 
 #sidebar ul {
   list-style: none;
+  padding-left: 0px;
 }
 
 
